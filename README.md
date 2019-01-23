@@ -2,7 +2,7 @@
 
 This node app uses a genetic algorithm to come up with a schedule based on the user's preferences without time conflicts, using a scraped JSON representation of INTEC's class offering as published in the web portal. An example of the offering format can be found in [oferta.json](./oferta.json).
 
-**NOTE: Configuration is currently done right in the app.js file. This will probably be refactored later into a CLI.**
+**NOTE: Configuration is currently done right in the app.js file. Ideally, this should be exposed as a CLI.**
 
 ### Class and Preference specification
 The desired selection is specified as an array of objects of the following format...
