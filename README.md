@@ -1,6 +1,6 @@
 # INTEC-ScheduleBuilder
 
-This node app uses a genetic algorithm to come up with a schedule based on the user's preferences without time conflicts, using a scraped JSON representation of INTEC's class offering as published in the web portal.
+This node app uses a genetic algorithm to come up with a schedule based on the user's preferences without time conflicts, using a scraped JSON representation of INTEC's class offering as published in the web portal. An example of the offering format can be found in [oferta.json](./oferta.json).
 
 **NOTE: Configuration is currently done right in the app.js file. This will probably be refactored later into a CLI.**
 
@@ -15,7 +15,7 @@ The section array is optional, and if not specified the schedule builder will se
 Specifying a single section in the array can be used to force a specific section.
 
 ### Parameters
-These constants are defined in **app.js**, right after the desired selection array.
+These constants are defined in [app.js](./app.js), right after the desired selection array.
 
 - `mutationRate` - this is used to randomly swap sections from a specific class in a proposed schedule. This is used to introduce some variance into the system in case it gets stuck.
 
