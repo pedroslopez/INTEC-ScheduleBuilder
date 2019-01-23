@@ -4,7 +4,7 @@ This node app uses a genetic algorithm to come up with a schedule based on the u
 
 **NOTE: Configuration is currently done right in the app.js file. This will probably be refactored later into a CLI.**
 
-### Class specification
+### Class and Preference specification
 The desired selection is specified as an array of objects of the following format...
 
 ```{code: "CBM203", section: ["06", "08"]}```
